@@ -1,0 +1,15 @@
+@media (min-width: 500px) {
+    main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: "col1 col2";
+    }
+    
+    #col1 {
+        grid-area: col1;
+    }
+    
+    #col2 {
+        grid-area: col2;
+    }
+}
