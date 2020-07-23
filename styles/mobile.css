@@ -10,7 +10,6 @@ section {
     border-radius: 6px;
     margin: 0 0 25px 0;
     box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.2);
-    transition: box-shadow 1s ease-in-out;
 }
 
 h1, h2, h3, h4 {
@@ -24,7 +23,6 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #777;
-    /* margin: 0 0 10px 0; */
 }
 
 h3 {
@@ -43,7 +41,8 @@ h4 {
 .container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-areas: "cont cont cont img";
+    grid-template-areas:
+    "cont cont cont img";
     overflow: hidden;
 }
 

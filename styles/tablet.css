@@ -1,15 +1,22 @@
-@media (min-width: 500px) {
+@media (min-width: 812px) and (max-width: 1024px) {
     main {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-areas: "col1 col2";
+        column-gap: 1em;
+        grid-template-areas:
+        "col col"
+        "col col";
     }
     
-    #col1 {
-        grid-area: col1;
+    .card1 {
+        grid-area: 1/1/1/1;
     }
     
-    #col2 {
-        grid-area: col2;
+    .card2 {
+        grid-area: 1/2/1/2;
+    }
+
+    .card3 {
+        grid-area: 2/1/2/1;
     }
 }
