@@ -15,6 +15,7 @@ section {
 h1, h2, h3, h4 {
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    color: #eee;
 }
 
 h2 {
@@ -22,37 +23,40 @@ h2 {
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #777;
+    /* color: #777; */
 }
 
 h3 {
     font-weight: 700;
     font-size: 20px;
-    color: #333;
+    /* color: #333; */
 }
 
 h4 {
     font-weight: 300;
     font-size: 14px;
-    color: #333;
+    /* color: #333; */
     margin-top: 2px;
 }
 
 .container {
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-areas:
-    "cont cont cont img";
+    "cont cont cont img"; */
     overflow: hidden;
+    background-image: url("../assets/alps.jpg");
+    background-size: cover;
+    height: auto;
 }
 
 .content {
-    grid-area: cont;
+    /* grid-area: cont; */
     margin: 25px;
 }
 
 .img {
-    grid-area: img;
+    /* grid-area: img; */
     background-image: url("../assets/alps.jpg");
     background-size: cover;
     background-repeat: no-repeat;
