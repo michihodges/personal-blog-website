@@ -7,6 +7,14 @@
         "col col"
         "col col";
     }
+
+    h2 {
+        color: #777;
+    }
+
+    h3, h4 {
+        color: #333;
+    }
     
     .card1 {
         grid-area: 1/1/1/1;
