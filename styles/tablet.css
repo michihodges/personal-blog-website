@@ -16,15 +16,15 @@
         color: #333;
     }
     
-    .card1 {
+    #card1 {
         grid-area: 1/1/1/1;
     }
     
-    .card2 {
+    #card2 {
         grid-area: 1/2/1/2;
     }
 
-    .card3 {
+    #card3 {
         grid-area: 2/1/2/1;
     }
 }
