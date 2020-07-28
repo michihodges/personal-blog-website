@@ -2,34 +2,9 @@
     main {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        column-gap: 1em;
         grid-template-areas:
         "col col"
         "col col";
-    }
-
-    .container {
-        display: grid;
-        grid-template-rows: repeat(2, 1fr);
-        grid-template-areas: 
-        "row"
-        "row";
-    }
-
-    /* .img {
-        grid-area: 1/1/1/1;
-    }
-
-    .content {
-        grid-area: 2/1/2/1;
-    } */
-
-    h2 {
-        color: #777;
-    }
-
-    h3, h4 {
-        color: #333;
     }
     
     #card1 {
