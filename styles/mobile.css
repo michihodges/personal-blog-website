@@ -1,7 +1,6 @@
 body {
     background-color: rgb(250, 251, 252);
     margin: 0;
-    /* padding: 50px; */
 }
 
 nav {
@@ -9,9 +8,11 @@ nav {
     background-color: #222;
     color: #fff;
     width: 100%;
+    z-index: 1;
 }
 
 .container {
+    position: relative;
     width: 100%;
     height: 50vh;
     background-color: #fff;
@@ -31,6 +32,13 @@ nav {
 
 button {
     background-color: rgba(0,0,0,0);
+    border: none;
+}
+
+.button {
+    position: absolute;
+    height: 100%;
+    width: 100%;
 }
 
 h1, h2, h3, h4 {
