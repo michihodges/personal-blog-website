@@ -11,6 +11,14 @@ nav {
     z-index: 1;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #fff;
+}
+
 .container {
     position: relative;
     width: 100%;
