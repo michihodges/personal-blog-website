@@ -19,10 +19,21 @@ a:visited {
     color: #fff;
 }
 
-.container {
+.blog-container {
     position: relative;
     width: 100%;
     height: 50vh;
+    background-color: #fff;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.post-container {
+    width: 100%;
+    height: 100vh;
     background-color: #fff;
     overflow: hidden;
     text-align: center;
