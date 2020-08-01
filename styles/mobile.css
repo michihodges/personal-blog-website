@@ -7,6 +7,7 @@ nav {
     position: fixed;
     background-color: #222;
     color: #fff;
+    padding: 0.5em 0 0.5em 1em;
     width: 100%;
     z-index: 1;
 }
@@ -42,9 +43,14 @@ a:visited {
     justify-content: center;
 }
 
+.img1 {
+    background-size: cover;
+    background-position: center center;
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.5)), url("../assets/img_01.jpg");
+}
+
 .img {
     background-size: cover;
-    /* background-repeat: no-repeat; */
     background-position: center center;
     background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.5)), url("../assets/alps.jpg");
 }
@@ -60,7 +66,7 @@ button {
     width: 100%;
 }
 
-h1, h2, h3, h4 {
+.headings {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     color: #eee;
@@ -68,10 +74,10 @@ h1, h2, h3, h4 {
 
 h1 {
     font-weight: 400;
-    margin: 0.5em 0 0.5em 1em;
+    /* margin: 0.5em 0 0.5em 1em; */
 }
 
-h2 {
+.h2-blog {
     font-weight: 400;
     /* font-size: 12px; */
     font-size: 14px;
@@ -80,17 +86,25 @@ h2 {
     /* color: #777; */
 }
 
-h3 {
+.h3-blog {
     font-weight: 700;
     /* font-size: 20px; */
     font-size: 35px;
     /* color: #333; */
 }
 
-h4 {
+.h4-blog {
     font-weight: 300;
     /* font-size: 14px; */
     font-size: 25px;
     /* color: #333; */
     margin-top: 2px;
+}
+
+.main-post {
+    margin: 0 2.5em 0 2.5em;
+}
+
+p {
+    font-family: 'Roboto Slab', serif;
 }
