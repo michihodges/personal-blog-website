@@ -97,13 +97,7 @@ h1 {
 .container-post {
     max-width: 1000px;
     margin: 0 auto 0 auto;
-    /* height: 100vh; */
-    /* background-color: #fff; */
     overflow: hidden;
-    /* text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center; */
 }
 
 p {
