@@ -167,6 +167,30 @@ figcaption {
     visibility: hidden;
 }
 
+.profile-card {
+    /* height: 50px; */
+    border: solid 1px black;
+    margin: 0 5em 0 5em;
+}
+
+.profile-container {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: solid 1px black;
+    margin: 1em 1em 1em 1em;
+}
+
+.img2 {
+    background-size: cover;
+    background-position: center center;
+    background-image: url("../assets/profile.jpg");
+}
+
+.profile-content {
+    background-color: #333;
+}
+
 #one {
     order: 1;
 }
