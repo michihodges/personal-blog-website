@@ -142,14 +142,14 @@ h1 {
     margin-top: 2px;
 }
 
-p {
+.para-post {
     font-family: 'Roboto Slab', serif;
     margin: 0 5em 0 5em;
     font-size: 18px;
     color: #292929;
 }
 
-q {
+.quote-post {
     font-size: 30px;
     color: #797979;
 }
@@ -168,27 +168,22 @@ figcaption {
 }
 
 .profile-card {
-    /* height: 50px; */
     border: solid 1px black;
     margin: 0 5em 0 5em;
-}
-
-.profile-container {
-    width: 50px;
-    height: 50px;
-    border-radius: 25px;
-    border: solid 1px black;
-    margin: 1em 1em 1em 1em;
-}
-
-.img2 {
-    background-size: cover;
-    background-position: center center;
-    background-image: url("../assets/profile.jpg");
+    display: flex;
+    flex-direction: row;
 }
 
 .profile-content {
-    background-color: #333;
+    max-width: 700px;
+}
+
+.avatar-container {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 1em 1em 1em 1em;
+    overflow: hidden;
 }
 
 #one {
@@ -205,4 +200,12 @@ figcaption {
 
 #four {
     order: 2;
+}
+
+#pro1 {
+    order: 2;
+}
+
+#pro2 {
+    order: 1;
 }
