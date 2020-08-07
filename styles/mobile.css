@@ -159,7 +159,7 @@ h1 {
     color: #797979;
 }
 
-img {
+.main-img {
     width: 100%;
 }
 
@@ -190,13 +190,12 @@ figcaption {
     font-size: 15px;
 }
 
-
-
 .avatar-container {
+    clip-path: circle(25px at 25px 25px);
+}
+
+.avatar {
     width: 50px;
-    height: 50px;
-    border-radius: 25px;
-    overflow: hidden;
 }
 
 #one {
@@ -222,4 +221,3 @@ figcaption {
 #pro2 {
     order: 1;
 }
-
