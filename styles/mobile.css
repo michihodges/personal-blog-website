@@ -190,8 +190,15 @@ figcaption {
     font-size: 15px;
 }
 
+.p-profile {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #292929;
+}
+
 .avatar-container {
     clip-path: circle(25px at 25px 25px);
+    margin: 0 1em 0 0;
 }
 
 .avatar {
