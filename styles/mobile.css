@@ -105,20 +105,38 @@ h1 {
     background-color: #fff;
 }
 
-.typo-sans {
+.typo-sans-300, .typo-sans-400, .typo-sans-700 {
     font-family: 'Roboto', sans-serif;
-    /* margin: 0; */
-    /* color: #eee; */
 }
 
-/* .h2 {
+.typo-sans-300 {
+    font-weight: 300;
+}
+
+.typo-sans-400 {
     font-weight: 400;
-    font-size: 12px;
+}
+
+.typo-sans-700 {
+    font-weight: 700;
+}
+
+.typo-h2, .typo-h4 {
     font-size: 14px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #777;
-} */
+}
+
+.typo-h2 {
+    margin: 10px 0;
+    color: #49c5b6;
+}
+
+.typo-h3 {
+    margin: 20px 0 10px;
+}
+
+.typo-h4 {
+    margin: 10px 0 20px;
+}
 
 /* .h3 {
     font-weight: 700;
