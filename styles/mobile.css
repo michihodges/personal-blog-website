@@ -95,10 +95,12 @@ h1 {
     padding-top: 100px;
     width: 100%;
     display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
 }
 
 .card {
-    margin: 0 auto;
+    margin-bottom: 20px;
     padding: 20px;
     /* border: 1px solid black; */
     max-width: 300px;
