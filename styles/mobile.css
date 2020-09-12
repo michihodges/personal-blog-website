@@ -79,25 +79,16 @@ h1 {
 
 /* BLOG HOMEPAGE */
 
-.blog-container {
-    padding: 100px 20px 0 20px;
+.cards-container {
+    padding-top: 100px;
     display: flex;
     justify-content: center;
-}
-
-.cards-container {
-    display: flex;
     flex-flow: row wrap;
 }
 
-/* .margin {
-    margin-right: 20px;
-} */
-
 .card {
-    margin-bottom: 20px;
+    margin: 20px;
     padding: 20px;
-    /* border: 1px solid black; */
     width: 100%;
     background-color: #fff;
 }

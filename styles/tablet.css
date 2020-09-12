@@ -1,4 +1,8 @@
-@media (min-width: 812px) and (max-width: 1024px) {
+@media (min-width: 812px) {
+    .card {
+        max-width: 300px;
+    }
+    
     .main-blog {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
