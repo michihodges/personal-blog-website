@@ -1,4 +1,8 @@
 @media (min-width: 1024px) {
+
+    .cards-container {
+        padding: 100px 50px 0 50px;
+    }
     main {
         display: grid;
         grid-template-columns: repeat(3, 1fr);

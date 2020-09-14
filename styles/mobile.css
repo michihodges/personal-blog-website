@@ -35,9 +35,16 @@ a {
     text-decoration: none;
 }
 
-a:visited {
-    color: #fff;
+a.home:visited {
+    color: #eee
 }
+
+a.button:visited {
+    color: #000;
+}
+/* a:visited {
+    color: #fff;
+} */
 
 figure {
     margin: 0;
@@ -62,17 +69,6 @@ figcaption {
     background-position: center center;
     background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.5)), url("../assets/alps.jpg");
 }
-
-/* button {
-    background-color: rgba(0,0,0,0);
-    border: none;
-} */
-
-/* .button {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-} */
 
 h1 {
     font-weight: 400;
@@ -101,40 +97,49 @@ footer {
     background-color: #fff;
 }
 
-.typo-sans-300, .typo-sans-400, .typo-sans-700 {
+.font-sans-300, .font-sans-400, .font-sans-700 {
     font-family: 'Roboto', sans-serif;
 }
 
-.typo-sans-300 {
+.font-sans-300 {
     font-weight: 300;
 }
 
-.typo-sans-400 {
+.font-sans-400 {
     font-weight: 400;
 }
 
-.typo-sans-700 {
+.font-sans-700 {
     font-weight: 700;
 }
 
-.typo-h2, .typo-h4 {
+.font-h2, .font-h4 {
     font-size: 14px;
 }
 
-.typo-h2 {
+.font-h2 {
     margin: 10px 0;
     color: #49c5b6;
 }
 
-.typo-h3 {
+.font-h3 {
     margin: 20px 0 10px;
 }
 
-.typo-h4 {
+.font-h4 {
     margin: 10px 0 20px;
 }
 
 /* BLOG POST */
+
+.post-container {
+    padding-top: 100px;
+    max-width: 1000px;
+    margin: 0 auto 0 auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
 
 .container-post {
     max-width: 1000px;
