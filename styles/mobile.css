@@ -132,6 +132,10 @@ footer {
 
 /* BLOG POST */
 
+.font-h1 {
+    font-size: 20px;
+}
+
 .post-container {
     padding-top: 100px;
     max-width: 1000px;
