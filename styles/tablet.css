@@ -2,7 +2,7 @@
     .card {
         max-width: 300px;
     }
-    
+
     .main-blog {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -42,5 +42,16 @@
         font-size: 17px;
         /* color: #333; */
         /* margin-top: 2px; */
+    }
+
+
+    /* BLOG */
+
+    .post-font-h1, .post-font-h2, .post-font-p {
+        padding: 0 100px;
+    }
+
+    .post-font-h2, .post-font-p {
+        font-size: 21px;
     }
 }

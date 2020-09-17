@@ -134,10 +134,9 @@ footer {
 
 .post-container {
     padding-top: 100px;
-    margin: 0 20px 0 20px;
+    margin: 0 20px;
     overflow: hidden;
     display: flex;
-    /* flex-direction: column; */
     justify-content: center;
 }
 
@@ -147,20 +146,48 @@ footer {
     flex-direction: column;
 }
 
+.font-serif-400 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+}
+
 .post-font-h1 {
     margin: 10px 0;
     font-size: 40px;
 }
 
+.post-font-h2, .post-font-p {
+    font-size: 18px;
+    line-height: 1.4;
+}
+
 .post-font-h2 {
     margin: 30px 0 10px 0;
-    font-size: 20px;
 }
 
 .post-font-p {
     margin: 10px 0;
-    font-size: 20px;
+
 }
+
+.info-container {
+    margin: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas:
+    "col"
+    "col";
+}
+
+.avatar-container {
+    clip-path: circle(25px at 25px 25px);
+}
+
+.avatar {
+    width: 50px;
+}
+
+
 
 .content-post {
     margin: 4em 5em 2em 5em;
@@ -245,28 +272,3 @@ footer {
     font-size: 18px;
     color: #292929;
 }
-
-.avatar-container {
-    clip-path: circle(25px at 25px 25px);
-    margin: 0 1em 0 0;
-}
-
-.avatar {
-    width: 50px;
-}
-
-/* #one {
-    order: 2;
-}
-
-#two {
-    order: 111;
-}
-
-#three {
-    order: 3;
-}
-
-#four {
-    order: 4;
-} */
