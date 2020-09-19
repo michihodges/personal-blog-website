@@ -170,13 +170,30 @@ footer {
 
 }
 
+.section-container {
+    display: flex;
+    justify-content: center;
+}
+
 .info-container {
     margin: 0 20px;
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: 1fr;
     grid-template-areas:
     "col"
     "col";
+}
+
+.author-info {
+    grid-area: 1/1/1/1;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+    "col col col col";
+}
+
+.social-sharing {
+    grid-area: 2/1/2/1;
 }
 
 .avatar-container {

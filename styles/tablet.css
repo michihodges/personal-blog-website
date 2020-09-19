@@ -3,12 +3,15 @@
         max-width: 300px;
     }
 
-    .main-blog {
+    .info-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-areas:
-        "col col"
         "col col";
+    }
+
+    .social-sharing {
+        grid-area: 1/2/1/2;
     }
     
     #card1 {
