@@ -177,6 +177,7 @@ footer {
 
 .info-container {
     margin: 0 20px;
+    max-width: 812px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-areas:
@@ -190,18 +191,29 @@ footer {
     grid-template-columns: repeat(4, 1fr);
     grid-template-areas:
     "col col col col";
+    column-gap: 20px;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.avatar-container {
+    clip-path: circle(75px at 75px 75px);
+}
+
+.avatar {
+    width: 150px;
+}
+
+dl {
+    margin: 0;
+}
+
+.author-content {
+    grid-area: 1/2/1/5;
 }
 
 .social-sharing {
     grid-area: 2/1/2/1;
-}
-
-.avatar-container {
-    clip-path: circle(25px at 25px 25px);
-}
-
-.avatar {
-    width: 50px;
 }
 
 
