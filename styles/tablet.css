@@ -1,54 +1,20 @@
 @media (min-width: 812px) {
+
+    /* BLOG HOMEPAGE */
+
     .card {
         max-width: 300px;
     }
+
+    /* BLOG POST */
 
     .info-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-areas:
         "col col";
+        column-gap: 20px;
     }
-
-    .social-sharing {
-        grid-area: 1/2/1/2;
-    }
-    
-    #card1 {
-        grid-area: 1/1/1/1;
-    }
-    
-    #card2 {
-        grid-area: 1/2/1/2;
-    }
-
-    #card3 {
-        grid-area: 2/1/2/1;
-    }
-
-    .h2-blog {
-        /* font-weight: 400; */
-        font-size: 15px;
-        /* text-transform: uppercase;
-        letter-spacing: 1px; */
-        /* color: #777; */
-    }
-    
-    .h3-blog {
-        /* font-weight: 700; */
-        font-size: 23px;
-        /* color: #333; */
-    }
-    
-    .h4-blog {
-        /* font-weight: 300; */
-        font-size: 17px;
-        /* color: #333; */
-        /* margin-top: 2px; */
-    }
-
-
-    /* BLOG */
 
     .post-font-h1, .post-font-h2, .post-font-p {
         padding: 0 100px;
@@ -56,5 +22,18 @@
 
     .post-font-h2, .post-font-p {
         font-size: 21px;
+    }
+
+    .social-sharing {
+        grid-area: 1/2/1/2;
+    }
+
+    .social-sharing > ul {
+        display: grid;
+        place-items: center center;
+    }
+
+    .social-sharing > ul > li {
+        margin: 5px 0;
     }
 }
