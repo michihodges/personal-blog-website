@@ -23,7 +23,8 @@
         background-color: #222;
         color: #fff;
         padding: 10px 0 10px 20px;
-        width: 1200px;
+        width: 100%;
+        overflow: hidden;
         z-index: 1;
     }
 
@@ -76,7 +77,8 @@
         background-color: #222;
         color: #fff;
         padding: 6px 0 4px 20px;
-        width: 1200px;
+        width: 100%;
+        overflow: hidden;
     }
 
     .spacing {
