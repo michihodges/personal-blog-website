@@ -8,20 +8,25 @@
 
     /* BLOG POST */
 
-    .info-container {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-areas:
-        "col col";
-        column-gap: 20px;
-    }
-
     .post-font-h1, .post-font-h2, .post-font-p {
         padding: 0 100px;
     }
 
     .post-font-h2, .post-font-p {
         font-size: 21px;
+    }
+
+    .post-font-q {
+        padding: 0 150px;
+        font-size: 18px;
+    }
+
+    .info-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+        "col col";
+        column-gap: 20px;
     }
 
     .social-sharing {
