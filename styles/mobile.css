@@ -205,10 +205,19 @@
     .author-info {
         grid-area: 1/1/1/1;
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 150px 1fr;
         grid-template-areas:
-        "col col col col";
-        column-gap: 20px;
+        "col"
+        "col";
+        row-gap: 20px;
+    }
+
+    .avatar-container {
+        grid-area: 1/1/1/1;
+    }
+
+    .author-content {
+        grid-area: 2/1/2/1;
     }
 
     .social-sharing {
@@ -239,9 +248,5 @@
 
     dd {
         margin: 0;
-    }
-
-    .author-content {
-        grid-area: 1/2/1/5;
     }
 }

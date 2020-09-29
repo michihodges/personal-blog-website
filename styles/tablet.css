@@ -24,9 +24,27 @@
     .info-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
         grid-template-areas:
         "col col";
         column-gap: 20px;
+    }
+
+    .author-info {
+        grid-area: 1/1/1/1;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas:
+        "col col col col";
+        column-gap: 20px;
+    }
+
+    .avatar-container {
+        grid-area: 1/1/1/1;
+    }
+
+    .author-content {
+        grid-area: 1/2/2/5;
     }
 
     .social-sharing {
