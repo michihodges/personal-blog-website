@@ -137,6 +137,7 @@
 
     .blog-font-h4 {
         margin: 10px 0 20px;
+        text-transform: uppercase;
     }
 
     /* BLOG POST */
@@ -164,6 +165,9 @@
     .post-font-h1 {
         margin: 10px 0;
         font-size: 40px;
+        -webkit-text-fill-color: rgba(0, 0, 0, 0); /* Will override color (regardless of order) */
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
     }
 
     .post-font-h2, .post-font-p {
@@ -204,20 +208,16 @@
 
     .author-info {
         grid-area: 1/1/1/1;
-        display: grid;
+        /* display: grid;
         grid-template-rows: 150px 1fr;
         grid-template-areas:
         "col"
         "col";
-        row-gap: 20px;
-    }
-
-    .avatar-container {
-        grid-area: 1/1/1/1;
+        row-gap: 20px; */
     }
 
     .author-content {
-        grid-area: 2/1/2/1;
+        margin: 20px 0 0 0;
     }
 
     .social-sharing {

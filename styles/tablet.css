@@ -45,6 +45,7 @@
 
     .author-content {
         grid-area: 1/2/2/5;
+        margin: 0;
     }
 
     .social-sharing {
